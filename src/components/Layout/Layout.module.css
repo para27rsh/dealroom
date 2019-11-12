@@ -1,0 +1,9 @@
+.Layout {
+  display: flex;
+}
+.rightSide {
+  width: 80%;
+  background-color: #f0f0f0;
+  position: relative;
+  padding: 40px;
+}

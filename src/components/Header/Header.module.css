@@ -1,0 +1,50 @@
+.header {
+}
+
+.headerWrapper {
+}
+
+.headerHeadingRightTop {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+}
+.headerHeadingRightTop span::after {
+  content: "";
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  margin: 0px 33px 2px 4px;
+}
+
+.headerHeading {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
+
+.headerTab {
+  display: flex;
+  border-bottom: 1px solid #c0c0c0;
+  color: #9295a0;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.headerTab :hover {
+  border-bottom: 1px solid #7070ec;
+  color: #09112e;
+}
+.headeTabData {
+  margin-right: 30px;
+  padding-bottom: 11px;
+}
+
+.headerHeadingRightTop {
+  float: right;
+}
+.headerHeadingRightTop span {
+  margin-left: 5px;
+}
